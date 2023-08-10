@@ -1,0 +1,209 @@
+/* &display=swap&subset=cyrillic-ext */
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 16px;
+    /* по умолчанию */
+}
+
+body {
+    line-height: 1;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/* ------------------------------ */
+.wrapper{
+    padding: 0px 30px 30px 30px;
+}
+
+.span-first-word{
+    font-size: 24px;
+    background-color: blueviolet;
+    color: cornsilk;
+}
+
+.block-border-solid{
+    background-color: cadetblue;
+    padding: 10px;
+    border: 3px solid firebrick;
+    margin-top: 20px;
+}
+
+.block-border-dotted{
+    background-color: cadetblue;
+    padding: 10px;
+    border: 7px dotted violet;
+    margin-top: 20px;
+}
+
+.block-border-dashed{
+    background-color: cadetblue;
+    padding: 10px;
+    border: 15px dashed green;
+    margin-top: 20px;
+}
+.block-border-different-sides {
+    background-color: cadetblue;
+    padding: 10px;
+    margin-top: 20px; 
+
+    border-top: 15px dashed green;
+    border-right: 9px solid tomato;
+    border-bottom: 11px dotted turquoise;
+}
+
+.block-outline{
+    background-color: rosybrown;
+    margin-top: 20px;
+    outline: 10px solid chartreuse;
+    padding: 30px;
+}
+.outline .span-first-word{
+    background-color: forestgreen;
+}
+
+.block-border-radius{
+    background-color: teal;
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 10px 50px;
+}
+
+.border-radius .span-first-word {
+    background-color: saddlebrown;
+}
+
+.block-border-radius-circle{
+    background: violet;
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.box-shadow .span-first-word {
+    background-color: indianred;
+}
+
+.block-box-shadow{
+    background-color: darkgoldenrod;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 55px;
+    max-width: 500px;
+
+    box-shadow: 5px 5px 15px 3px red;
+}
+
+.block-box-shadow-negative-values{
+    background-color: aquamarine;
+    margin-top: 30px;
+    padding: 55px;
+
+    box-shadow: -10px -5px 15px 1px black;
+    border-radius: 10px;
+}
+
+.block-box-shadow-inset{
+    background-color: coral;
+    margin-top: 30px;
+    padding: 75px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+
+    box-shadow: inset 10px 20px 35px 10px black;
+}
+
+.block-opacity{
+    background-color: coral;
+    margin-top: 20px;
+    padding: 30px;
+    font-size: 24px;
+    text-transform: uppercase;
+
+    opacity: 0.3;
+}
+
+.block-visibility{
+    margin-top: 50px;
+    visibility: hidden;
+}
+
+.block-vertical-align-top{
+    margin-top: 30px;
+}
+
+.block-vertical-align-top .span-first-word{
+    font-size: 50px;
+    vertical-align: top;
+    background-color: brown;
+}
+
+.block-vertical-align-bottom{
+    margin-top: 30px;
+}
+
+.block-vertical-align-bottom .span-first-word{
+    background-color: turquoise;
+    font-size: 40px;
+    vertical-align: bottom;
+}
+
+.block-vertical-align-middle{
+    margin-top: 55px;
+}
+
+.block-vertical-align-middle .span-first-word{
+    background-color: crimson;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
